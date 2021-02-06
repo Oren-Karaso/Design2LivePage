@@ -94,10 +94,11 @@ body {
     width: 981px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: -83px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 2px solid #606060;
+    border: 1px solid #606060;
     background-color: #FFFFFF;
 }
 
@@ -133,6 +134,7 @@ body {
     color: #606060;
     font-size: 1rem;
     font-family: lato;
+    padding: 2px;
 }
 
 .card-text-second {
@@ -141,6 +143,7 @@ body {
     color: #606060;
     font-size: 1rem;
     font-family: lato;
+    padding: 2px;
 }
 
 .continue-reading {
@@ -158,6 +161,7 @@ body {
     border: 2px solid #58C93A;
     color: #58C93A;
     width: 210px;
+    cursor: pointer;
 }
 
 .continue-reading:hover::after {
