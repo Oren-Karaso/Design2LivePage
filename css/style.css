@@ -1,0 +1,249 @@
+/* FONTS */
+
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: eurofurence;
+    src: url(../fonts/eurofurence/eurof55.ttf);
+}
+
+@font-face {
+    font-family: champange;
+    src: url(../fonts/champange/Champagne\ &\ Limousines.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 28px;
+}
+
+/* buttons and h2 = Lato-Bold,MyriadPro-Regular,AdobeInvisFont */
+
+/* regular txt = Lato-Regular,MyriadPro-Regular,AdobeInvisFont */
+
+/* nxt and prev buttons = Champagne&Limousines,Lato-Bold,MyriadPro-Regular,AdobeInvisFont */
+
+.main-header {
+    display: flex;
+    height: 130px;
+    width: 100%;
+    margin-bottom: 82px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+    background-color: #292929;
+    color: aliceblue;
+    font-family: eurofurence;
+}
+
+.logo {
+    font-size: 2.5rem;
+    margin-left: 0;
+}
+
+.main-header span {
+    color: #58C93A;
+    font-size: 2.5rem;
+}
+
+.main-nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0.754em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 0;
+}
+
+.main-nav li {
+    width: 133px;
+    height: 128px;
+    margin-right: 0;
+    border: solid 1px rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.main-nav li:hover {
+    border-bottom: 2px solid #58C93A;
+}
+
+.main-nav a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    color: #58C93A;
+    text-decoration: none;
+}
+
+.main-container {
+    width: 981px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid #606060;
+    background-color: #FFFFFF;
+}
+
+.card {
+    margin-top: 78px;
+    display: flex;
+}
+
+.inner-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    margin-right: 41px;
+    margin-top: 2px;
+    width: 51.8%;
+}
+
+.card-title {
+    width: 386px;
+    margin-top: 0px;
+    margin-right: 82px;
+    font-size: 1.75rem;
+    color: #4F4E4E;
+    font-family: lato;
+    font-weight: bold;
+}
+
+.card-text {
+    margin-top: 58px;
+    margin-right: 25px;
+    color: #606060;
+    font-size: 1rem;
+    font-family: lato;
+}
+
+.card-text-second {
+    margin-top: 40px;
+    margin-right: 25px;
+    color: #606060;
+    font-size: 1rem;
+    font-family: lato;
+}
+
+.continue-reading {
+    width: 187px;
+    margin-right: 259px;
+    margin-top: 43px;
+    height: 30px;
+    border-radius: 25px;
+    color: #C2C1C1;
+    background-color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.continue-reading:hover {
+    border: 2px solid #58C93A;
+    color: #58C93A;
+    width: 210px;
+}
+
+.continue-reading:hover::after {
+    content: '⇾';
+    padding-left: 10px;
+}
+
+.article-buttom {
+    margin-top: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    border: 1px solid grey;
+    font-size: 1.125rem;
+}
+
+.prev {
+    margin-left: 25px;
+    color: #818181;
+    font-family: champange;
+}
+
+.nxt {
+    margin-right: 25px;
+    color: #818181;
+    font-family: champange;
+}
+
+.nxt:hover {
+    color: #58C93A;
+    cursor: pointer;
+}
+
+.prev:hover {
+    color: #58C93A;
+    cursor: pointer;
+}
+
+.button-footer {
+    width: 100%;
+    background-color: #F8F8F8;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-media {
+    display: flex;
+    margin-bottom: 79px;
+}
+
+.lower-logo {
+    color: #292929;
+    font-size: 2.5rem;
+    font-family: eurofurence;
+}
+
+.lower-logo-txt {
+    font-size: 0.8125rem;
+    font-family: champange;
+}
+
+.lower-logo span {
+    color: #58C93A;
+    font-size: 2.5rem;
+}
+
+.social-media-icon img {
+    height: 31px;
+    width: 31px;
+    background-color: #E5E5E5;
+}
+
+.social-media-icon {
+    margin-right: 30.5px;
+    height: 41px;
+    width: 41px;
+}
+
+.social-media-icon :hover {
+    background-color: #516FAD;
+    cursor: pointer;
+}
